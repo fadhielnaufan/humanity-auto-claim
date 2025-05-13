@@ -87,7 +87,7 @@ async function run() {
       }
 
       const claim = await call("/api/rewards/daily/claim");
-      console.log("🎉 Claim berhasil:", claim.data.amount);
+      console.log("🎉 Claim berhasil");
 
       const updatedUserInfo = await call("/api/user/userInfo");
       console.log("✅ User Info:", updatedUserInfo.data.nickName);
