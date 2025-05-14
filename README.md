@@ -6,6 +6,7 @@ A Node.js script to automatically claim daily rewards from the Humanity Protocol
 ## ✨ Features
 
 - Automatically logs in and claims daily rewards
+- Support Multiple Account
 - Checks user info and current balance
 - Waits 24 hours after a successful claim before re-claiming
 - Supports rotating proxies (HTTP/HTTPS)
